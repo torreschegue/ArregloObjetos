@@ -1,11 +1,18 @@
 
 public class Persona {
 	
+	// Siempre de Privado
+	// Evitar modificaciones de los valores
 	private int id;
 	private long telefono;
 	private String nombre, apellidos;
 	private Double Salario;
 	
+	public Persona() {
+		
+	}
+	
+	// El que se manda a llamar cuando se ejecuta la clase
 	public Persona(int id, long telefono, String nombre, String apellidos, Double salario) {
 		this.id = id;
 		this.telefono = telefono;
@@ -14,10 +21,12 @@ public class Persona {
 		Salario = salario;
 	}
 
+	// Regresar informacion almacena
 	public int getId() {
 		return id;
 	}
 
+	// Cambiar el valor en el atributo o agrega un nuevo
 	public void setId(int id) {
 		this.id = id;
 	}
