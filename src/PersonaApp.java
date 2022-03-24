@@ -5,6 +5,8 @@ public class PersonaApp {
 	// Creando el Objeto 
 	// Arreglo de Objeto
 	int MAX_Personas = 5;
+	
+	
 	int id = 1, contadorPersonas = 0;
 	
 	Persona persona[] = new Persona[MAX_Personas];
